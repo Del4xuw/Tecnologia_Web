@@ -1,1 +1,1 @@
-document.write("<h1>Esta es una pagina con un poco de javascript</h1>");
+document.write("<h3>Esta es una pagina con un poco de javascript</h3>");
