@@ -30,8 +30,8 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:#ffffff;
-    color: whitesmoke;
+    background-color:#07500b;
+    color: rgb(2, 43, 4);
 }
 
 header img {
