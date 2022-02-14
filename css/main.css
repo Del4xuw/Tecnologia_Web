@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#1e691e;
+    color:#ffffff;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 2px solid rgb(127, 209, 127);
+    border-bottom: 2px solid rgb(134, 204, 134);
 }
 
 header, main, footer {
@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:#07500b;
+    background-color:#ffffff;
     color: rgb(2, 43, 4);
 }
 
