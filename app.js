@@ -1,0 +1,1 @@
+document.write("<h1>Esta es una pagina con un poco de javascript</h1>");
