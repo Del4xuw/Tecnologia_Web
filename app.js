@@ -1,1 +1,11 @@
-document.write("<h3>Esta es una pagina con un poco de javascript</h3>");
+var i = 0;
+    var txt = 'Esta es una pagina con un poco de javascript';
+    var speed = 80;
+    function typeWrite(){
+        if(i < txt.length){
+            document.getElementById ('texto').innerHTML += txt.charAt(i);
+            i++;
+            setTimeout (typeWrite, speed);
+        }
+    }
+
