@@ -30,8 +30,21 @@
       <a href="http://www.upds.edu.bo/"> UPDS - Cbba.</a>
     </p>
   </footer>
- <script src="app.js"></script>
- <center><span> Hola mundo!></span></center>
+  <center>
+ <script>
+ var i = 0;
+  var txt = 'Esta es una pagina con un poco de javascript';
+  var speed = 80;
+  function typeWrite(){
+      if(i < txt.length){
+          document.getElementById ('texto').innerHTML += txt.charAt(i);
+          i++;
+          setTimeout (typeWrite, speed);
+      }
+  }
+</script>
+</center>
+ <center><span> Hola mundo!</span></center>
  <div class="cont-tittle">
 <a href=""></a>
  </div>
