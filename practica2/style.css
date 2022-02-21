@@ -5,11 +5,50 @@
     list-style: none; 
     box-sizing: border-box;
 } 
+
 nav{
     background: #AFC2D5;
     height: 95px;
     width: 100%;
+    font-family: 'Share Tech Mono', monospace;
 }
+main
+{
+width: 70%;
+background-color: #e9f5db;
+padding: 5px;
+text-align: center;
+float: left;
+font-family: 'Share Tech Mono', monospace;
+}
+main img{
+    width: 50%;
+    max-width: 50%;
+}
+main footer{
+
+        padding: 25px 80%;
+        background-color: #ccd4c2;
+       
+}
+.siguenos
+{
+    width: 37px;
+}
+
+aside {
+    width: 25%;
+    height: 25%;
+    background: #e9f5db;
+    float: right;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+aside h2 {
+    max-width: 39%;
+}
+
+
 .enlace
 {
     position: absolute;
@@ -88,3 +127,4 @@ body{
     #check:checked ~ ul{
         left:0; 
     }}
+
