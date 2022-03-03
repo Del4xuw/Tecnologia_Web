@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(72, 242, 185);
+}
+h1{
+    font-family: 'Suez One', serif;
+    padding-bottom: 19px;
+    background-color: rgb(117, 205, 211);
+border-style: dotted;
+text-align: center;
+text-transform: uppercase;
+
+  
+}
+.fb{
+    border-style:dotted;
+
+}
+.fb h2{
+    background-color: rgb(113, 209, 209);
+    font-family: 'Trade Winds', cursive;
+    text-transform: uppercase;
+}
+
+.temp h2{
+    background-color: rgb(113, 209, 209);
+    font-family: 'Trade Winds', cursive;
+    text-transform: uppercase;
+}
+form .btn {
+    width: 21%;
+    background: #b5d0bd;
+    color: rgb(12, 11, 11);
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+input[type="text"] {
+    width: 21%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.txt {
+    font-size: 30px;
+    color: rgb(16, 15, 17);
+}
+
+.temp{
+    border-style:dotted;
+    padding: 23px 2px;
+}
+
