@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #014f86;
+    position: sticky;
+    top: 0;
+}
+.navar ul{
+    display: flex;
+    list-style:none;
+    margin: 20px 0px;
+}
+.navar ul li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navar ul li a:hover{   
+    background-color: #61a5c2;
+    box-shadow: 0 0 10px;
+}
+/* inicio */
