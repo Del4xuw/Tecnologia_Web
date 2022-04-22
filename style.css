@@ -150,8 +150,7 @@ html{
     
 }
 .gallery:hover img{
-    background-position:top bottom;
-      color: white;
+    color: white;
     border: none;
     box-shadow:0 0 20px #3f5169 ;
     
