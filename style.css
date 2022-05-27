@@ -142,7 +142,7 @@ html{
 }
 
 
-/*servicios*/
+/*habilidades*/
 #habilidades{
     display: flex;
     flex-direction: column;
@@ -151,8 +151,8 @@ html{
 
 .row{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content:center;
+    flex-wrap:wrap-reverse;
     box-sizing: border-box;
 }
 .box{
