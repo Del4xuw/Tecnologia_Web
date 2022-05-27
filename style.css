@@ -19,9 +19,11 @@ html{
     top: 0;
 }
 .navar ul{
-    display: flex;
+    position: relative;
+    align-content: center;
+    display:inherit;
     list-style:none;
-    margin: 20px 0px;
+    margin: none;
 }
 .navar ul li{
     font-family: 'Nunito Sans', sans-serif;
@@ -139,38 +141,9 @@ html{
     border: 1px solid white;
 }
 
-/*habilidades*/
-.habilidades{
-    display: flex;
-    flex-direction: column;
-    background-color: #4e8bdc;
-    color: white;
-    align-items: center;
-    padding: 20px;
-    
-}
-.gallery:hover img{
-    color: white;
-    border: none;
-    box-shadow:0 0 20px #3f5169 ;
-    
-}
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-    box-sizing: border-box;
-    
-}
-.gallery img{
-    
-    width: 280px;
-    height: 210px;
-    margin: 10px;
-}
+
 /*servicios*/
-#servicios{
+#habilidades{
     display: flex;
     flex-direction: column;
     padding: 20px;
