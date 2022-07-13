@@ -1,4 +1,6 @@
-
+function mostrar(){
+     ("hola");
+}
 
 window.onscroll = function(){
     if(document.documentElement.scrollTop > 100){
