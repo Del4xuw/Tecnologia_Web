@@ -67,6 +67,7 @@ text-align: center;
     --twitter:#55acee;
     --pinterest: #bd081c;
     --linkedin:#0077b5;
+    --whatsapp:rgb(118, 232, 36);
 }
 .social ul li .facebook:hover{
     background:  var(--facebook);
@@ -82,4 +83,7 @@ text-align: center;
 }
 .social ul li .linkedin:hover{
     background:  var(--linkedin);
+}
+.social ul li .whatsapp:hover{
+    background:  var(--whatsapp);
 }
